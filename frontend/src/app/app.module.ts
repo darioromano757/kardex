@@ -5,13 +5,13 @@ import { FormsModule }   from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { LoadMenuComponent } from './load-menu/load-menu.component';
+import { ProductManagmentComponent } from './product-mgnt/product-mgnt.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoadMenuComponent
+    ProductManagmentComponent
   ],
   imports: [
     BrowserModule,

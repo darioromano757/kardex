@@ -1,16 +1,14 @@
 import { Component, OnInit, Inject, Injectable } from '@angular/core';
-import { HttpClient, HttpResponse } from '@angular/common/http'
+import { HttpClient, HttpResponse } from '@angular/common/http';
 import { Product } from './product';
-import { Observable } from 'rxjs';
-import { debug } from 'util';
 
 @Component({
   selector: 'app-load-menu',
-  templateUrl: './load-menu.component.html',
-  styleUrls: ['./load-menu.component.css']
+  templateUrl: './product-mgnt.component.html',
+  styleUrls: ['./product-mgnt.component.css']
 })
 @Injectable()
-export class LoadMenuComponent implements OnInit {
+export class ProductManagmentComponent implements OnInit {
   
   products = [];
   newProduct: Product = new Product();

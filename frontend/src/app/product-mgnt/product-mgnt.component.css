@@ -1,0 +1,11 @@
+.col-sm-10 .btn.btn-primary,
+td .btn.btn-primary.btn-sm {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    border-radius: 0;
+}
+
+.custom-table.row {
+    border-top: 3px solid #d2d6de;
+    padding-top: 5px;
+}
